@@ -1,0 +1,124 @@
+.bg {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #5ec6e6 0%, #f2f7fa 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.titulo {
+  margin-top: 30px;
+  color: #24586c;
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  text-shadow: 0 2px 8px #96e3f3a8;
+}
+
+.container {
+  max-width: 340px;
+  margin: 60px auto 0 auto;
+  padding: 24px 20px 18px 20px;
+  background: #e7eff6;
+  border-radius: 17px;
+  box-shadow: 0 8px 32px 0 #2d8fbb23;
+  text-align: center;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #24586c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputsArea {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.input {
+  width: 45%;
+  padding: 9px 10px;
+  font-size: 1.15rem;
+  border: 1.5px solid #b4d9e6;
+  border-radius: 6px;
+  outline: none;
+  color: #24586c;
+  background: #fafdff;
+  transition: border-color 0.2s;
+}
+
+.inputFocus, .input:focus {
+  border-color: #5ec6e6;
+  background: #f0fcff;
+}
+
+.visor {
+  background: #d0e5ef;
+  padding: 13px;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: right;
+  color: #24586c;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 95%;
+  box-shadow: 0 2px 10px #64b5f699;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.resultado {
+  margin-top: 12px;
+  font-size: 1.17rem;
+  color: #278cba;
+  font-weight: 700;
+  min-height: 24px;
+}
+
+/* Ajustes para o botão vindo de ../../components/button/Button */
+button {
+  width: 100%;
+  padding: 13px 0;
+  font-size: 1.1rem;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  background: #5ec6e6;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 7px #9edff233;
+  transition: background 0.18s, transform 0.13s;
+  outline: none;
+  letter-spacing: 1px;
+}
+
+button[type="danger"] {
+  background: #f66b6b;
+}
+
+button[type="sucess"] {
+  background: #4bc97a;
+}
+
+button:hover,
+button:focus-visible {
+  background: #278cba;
+  color: #fff;
+  transform: scale(1.07);
+  opacity: 0.98;
+}

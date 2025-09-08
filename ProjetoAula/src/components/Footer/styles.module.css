@@ -1,0 +1,30 @@
+.footer {
+  background: linear-gradient(90deg, #7b2ff2 0%, #f357a8 100%);
+  color: #f0f0f0;
+  padding: 1.5rem 0;
+  text-align: center;
+  border-top: 2px solid #7b2ff2;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin-top: 2rem;
+}
+
+.footer p {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.footer a {
+  color: #cccccc;
+  background-color: #7b2ff2;
+  padding: 0.25em 0.75em;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s, color 0.2s;
+}
+
+.footer a:hover {
+  background: #4c1872;
+  color: #fff;
+}
